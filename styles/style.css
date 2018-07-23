@@ -34,8 +34,6 @@ nav a {
 
 .text-box {
     max-width: 500px;
-    float: left;
-    clear: right;
     font-size: 20px;
 }
 article h3 {
@@ -46,19 +44,23 @@ article h3 {
     max-width: 500px;
     text-align: center;
     float: right;
+    color: white;
 }
 #info-box .left {
     background-color: #91A700;
     padding-top: 6px;
+    box-shadow: -5px 5px 8px black;
 }
 #info-box .right {
     background-color: #91A700;
-    padding-bottom: 9px;
+    padding: 15px 0;
     margin: 0px;
+    box-shadow: 5px 5px 8px black;
 }
 .right, .left {
     display: inline-block;
     max-width: 50%;
+    min-width: 49%;
 }
 .knowledge {
     width: 800px;
@@ -69,21 +71,28 @@ article h3 {
 
 .cookie-notice {
     z-index: 300000;
-    max-width: 200px;
+    max-width: 250px;
     text-align: center;
-    padding: 20px; 
-    background: #91A700; color: #333; 
-    font-size: 12px; 
-    border: 1px solid #ccc; 
-    position: absolute; 
-    top: 1400px; 
-    left: 0px;
+    padding: 13px; 
+    background: #91A700;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+}
+#accept {
+    border: 0px;
+    width: 100px;
+    color: #91A700;
 }
 body{
     margin: auto;
     background-color: white;
     max-width: 1200px;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.images {
+    margin: 0px;
 }
 .pull-left {
     float: left;
@@ -104,7 +113,7 @@ footer {
     margin: 13px;
 }
 a:link {
-    color: red;
+    color: #91A700;
     text-decoration: none;
 }
 a:visited {

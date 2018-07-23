@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <script src="../scripts/home.js"></script>
     <title>Rus Marcus</title>
 </head>
 <body>
     <header>
         <nav>
-            <a id="contact" class="topbar-menu" href="" >PASSIONS &amp; HOBBIES</a>
+            <a class="topbar-menu" href="../pages/passions.html" >PASSIONS &amp; HOBBIES</a>
             <a class="topbar-menu" href="index.html" >HOME &amp; ABOUT ME</a>
-            <a class="topbar-menu" href="" >CONTACT</a>
+            <a class="topbar-menu" href="../pages/contact.html" >CONTACT</a>
         </nav>
         <div class="title-box">
             <h2>Rus Marcus Florin</h2>
@@ -20,7 +21,7 @@
         </div>
     </header>
     <div id="container">
-        <div class="text-box">
+        <div class="text-box pull-left">
             <p>My name is Rus Marcus Florin, I'm 21 years old. I was born in Dej and now i'm moved in 
                 Cluj-Napoca with my wife.I like programming and hope one day I will be a hacker(in good scope).
                 When I was a child, I loved to unleash everything I got in my hand, I was very curious about what's 
@@ -45,16 +46,15 @@
         <div style="clear:both"></div>
         <article class="knowledge">
             <h3>What I have learned at Informal scool's courses</h3>
-            <p>
-            <strong> HTML5</strong>, and <strong>CSS3</strong> how to build a User Interface.<br> 
-            <strong>JavaScript</strong> how to use variables, functions, objects, scope, AJAX, jQuery, DOM.<br>
-            <strong>HTTP</strong> fundamentals about the protocol: methods, headers, error codes.<br>
-            <strong>PHP</strong> how to use variables, functions, classes, includes, interaction with the browser and CRUD operations on a database (MySQL)<br>
-            <strong>MySQL</strong> how to create and update a database, perform CRUD operations on tables, joins<br>
-            <strong>OOP</strong> basics about classes, objects and inheritance in PHP<br>
-            <strong>MVC</strong> built a blog with administrative features creating a custom MVC framework from scratch<br>
-            <strong>GIT</strong> learned the principles and basic commands<br>
-            </p>
+            <p><strong>HTML5</strong>, and <strong>CSS3</strong> how to build a User Interface.</p>
+            <p><strong>JavaScript</strong>: how to use variables, functions, objects, scope, AJAX, jQuery, DOM</p>
+            <p><strong>HTTP</strong> fundamentals about the protocol: methods, headers, error codes.</p>
+            <p><strong>PHP</strong> how to use variables, functions, classes, includes, interaction with the browser and CRUD operations on a database (MySQL)</p>
+            <p><strong>MySQL</strong> how to create and update a database, perform CRUD operations on tables, joins</p>
+            <p><strong>OOP</strong> basics about classes, objects and inheritance in PHP</p>
+            <p><strong>MVC</strong> built a blog with administrative features creating a custom MVC framework from scratch</p>
+            <p><strong>GIT</strong> learned the principles and basic commands</p>
+            <p>And a lot about Team roles, Application Lifecycle, App Architecture.</p>
     </article>
         
     </div>
@@ -62,11 +62,11 @@
     
     
     
-    <div class="cookie-notice" 
+    <div class="cookie-notice" id="toRemove">
         <p><strong>Sorry, but I had to.</strong></p>
         <p>I use cookies and similar technologies to run this website to help me understand how you use it. 
         <a href="https://en.wikipedia.org/wiki/Privacy_policy" id="privacy">Privacy Policy</a></p><br>
-        <button class="accept" style="padding: 5px; margin-top: 5px;">Continue</button>
+        <input type="button" id="accept" value="Accept">
     </div>
     <footer>
         <p>&copy; 2018 - Rus Marcus Florin | All rights reserved.</p>
