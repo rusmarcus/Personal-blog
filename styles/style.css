@@ -1,7 +1,6 @@
 header{
     max-width: 1200px;
     height: 450px;
-    background-image: url('../styles/media/header\ image\ copy.jpg');
     background-size: cover;
     margin: auto;
 }
@@ -17,7 +16,6 @@ nav {
     position: absolute;
     top: 325px;
     left: 30%;
-    
 }
 nav a {
     font-weight: bold;
@@ -30,8 +28,6 @@ nav a {
     background-color: #e0e0e0;
     display: inline-block;
 }
-
-
 .text-box {
     max-width: 500px;
     font-size: 20px;
@@ -40,11 +36,19 @@ article h3 {
     color: #91A700;
     font-size: 23px
 }
+#container {
+    margin: 25px auto;
+    padding: 15px auto;
+    border-top: #91A700 solid 3px;
+    border-bottom: #91A700 solid 3px;
+}
 #info-box {
     max-width: 500px;
     text-align: center;
     float: right;
     color: white;
+    padding-bottom: 25px;
+    border-bottom: #91A700 solid 3px;
 }
 #info-box .left {
     background-color: #91A700;
@@ -65,10 +69,7 @@ article h3 {
 .knowledge {
     width: 800px;
     font-size: 20px;
-    
 }
-
-
 .cookie-notice {
     z-index: 300000;
     max-width: 250px;
@@ -93,6 +94,8 @@ body{
 }
 .images {
     margin: 0px;
+    max-width: 50%;
+    background-color: #91A700;
 }
 .pull-left {
     float: left;
@@ -100,6 +103,12 @@ body{
 }
 .pull-right{
     float: right;
+}
+
+.passions-container {
+    margin-top: 15px;
+    border-top: #91A700 solid 3px;
+    padding-top: 10px;
 }
 footer {
     margin-top: 40px;
