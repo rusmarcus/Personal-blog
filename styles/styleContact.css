@@ -19,6 +19,19 @@ nav a {
     background-color: #e0e0e0;
     display: inline-block;
 }
+body{
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container {
+    margin: 25px auto;
+    padding: 15px auto;
+    border-top: #91A700 solid 3px;
+    border-bottom: #91A700 solid 3px;
+}
 a:link {
     color: #91A700;
     text-decoration: none;

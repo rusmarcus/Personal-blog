@@ -19,7 +19,7 @@ nav {
 }
 nav a {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1em;
     border-left: 2px grey solid;
     border-right: 2px grey solid;
     margin: 0px 10px;
@@ -30,7 +30,7 @@ nav a {
 }
 .text-box {
     max-width: 500px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 article h3 {
     color: #91A700;
@@ -78,8 +78,8 @@ article h3 {
     background: #91A700;
     font-size: 15px;
     position: fixed;
-    bottom: 20px;
-    left: 40px;
+    bottom: 40px;
+    left: 80px;
 }
 #accept {
     border: 0px;
@@ -109,6 +109,8 @@ body{
     margin-top: 15px;
     border-top: #91A700 solid 3px;
     padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: #91A700 solid 3px;
 }
 footer {
     margin-top: 40px;
